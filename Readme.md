@@ -6,16 +6,16 @@
 
 初始项目:  基于CNN完成minst数据集手写识别任务
 
-拓展项目:  ResNet完成CIFAR-10分类任务
+拓展项目:  ResNet18和Resnet50完成CIFAR-10分类任务
 
 ### 项目环境
 
-项目编译环境是jupyter notebook，采用的框架是华为的mindspore框架
+项目编译环境是ModelArts的 notebook，采用的框架是华为的mindspore框架和pytroch
 
-采用的模型是卷积神经网络的经典模型Lenet-5
+采用的模型是卷积神经网络的经典模型Lenet-5,Resnet-18,和Resnet-50
 
 ### 项目拓展
-拓展项目框架是pytorch，模型是Resnet-18
+拓展项目框架是pytorch，模型是Resnet-18和Resnet-50
 
 ## 项目结构
 
@@ -43,5 +43,12 @@ renet.ckpt为训练完保存的模型
 
 Resnet18ForCIFAR-10.ipynb为 源代码(jupyter)
 
+***Resnet50ForCIFAR-10为拓展项目目录
+
+data文件夹为数据集目录
+
+resnet.onnx为训练完保存的模型
+
+Resnet50ForCIFAR-10.ipynb为 源代码(jupyter)
 
 
