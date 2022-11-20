@@ -35,7 +35,7 @@ enet5和lenet5_2是训练过程中callback保存的模型
 
 img10是外部的图片数据集用于验证模型
 
-***Resnet18ForCIFAR-10为拓展项目目录
+#### Resnet18ForCIFAR-10为拓展项目目录
 
 data文件夹为数据集目录
 
@@ -43,7 +43,7 @@ renet.ckpt为训练完保存的模型
 
 Resnet18ForCIFAR-10.ipynb为 源代码(jupyter)
 
-***Resnet50ForCIFAR-10为拓展项目目录
+#### Resnet50ForCIFAR-10为拓展项目目录
 
 data文件夹为数据集目录
 
